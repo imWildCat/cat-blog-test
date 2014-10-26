@@ -54,6 +54,7 @@
         }
 
         function performSearch(str){
+            console.log('perform search');
             var matches = [];
 
             $.each(jsonData,function(i,entry){
